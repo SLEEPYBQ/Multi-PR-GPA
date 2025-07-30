@@ -1,6 +1,7 @@
 # Experiment results and output files
 EXP/
 New_Experiment/
+comparison_new/
 *_results.json
 *.csv
 ablation_dialogue/
