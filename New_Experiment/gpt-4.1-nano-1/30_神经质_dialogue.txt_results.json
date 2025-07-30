@@ -1,0 +1,236 @@
+{
+  "2": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.6,
+      "O_Error": 0.6,
+      "O_RMSE": 0.672,
+      "C_MAE": 1.0,
+      "C_Error": -1.0,
+      "C_RMSE": 1.2,
+      "E_MAE": 0.0,
+      "E_Error": 0.0,
+      "E_RMSE": 0.0,
+      "A_MAE": 1.111,
+      "A_Error": 1.111,
+      "A_RMSE": 1.358,
+      "N_MAE": 0.625,
+      "N_Error": 0.625,
+      "N_RMSE": 0.703,
+      "Avg_MAE": 0.667,
+      "Avg_RMSE": 0.773
+    }
+  },
+  "3": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.6,
+      "O_Error": 0.6,
+      "O_RMSE": 0.672,
+      "C_MAE": 1.0,
+      "C_Error": -1.0,
+      "C_RMSE": 1.2,
+      "E_MAE": 0.0,
+      "E_Error": 0.0,
+      "E_RMSE": 0.0,
+      "A_MAE": 1.111,
+      "A_Error": 1.111,
+      "A_RMSE": 1.358,
+      "N_MAE": 0.625,
+      "N_Error": 0.625,
+      "N_RMSE": 0.703,
+      "Avg_MAE": 0.667,
+      "Avg_RMSE": 0.773
+    }
+  },
+  "5": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.6,
+      "O_Error": 0.6,
+      "O_RMSE": 0.672,
+      "C_MAE": 1.0,
+      "C_Error": -1.0,
+      "C_RMSE": 1.2,
+      "E_MAE": 0.0,
+      "E_Error": 0.0,
+      "E_RMSE": 0.0,
+      "A_MAE": 1.111,
+      "A_Error": 1.111,
+      "A_RMSE": 1.358,
+      "N_MAE": 0.625,
+      "N_Error": 0.625,
+      "N_RMSE": 0.703,
+      "Avg_MAE": 0.667,
+      "Avg_RMSE": 0.773
+    }
+  },
+  "1": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.6,
+      "O_Error": 0.6,
+      "O_RMSE": 0.672,
+      "C_MAE": 1.0,
+      "C_Error": -1.0,
+      "C_RMSE": 1.2,
+      "E_MAE": 0.0,
+      "E_Error": 0.0,
+      "E_RMSE": 0.0,
+      "A_MAE": 1.111,
+      "A_Error": 1.111,
+      "A_RMSE": 1.358,
+      "N_MAE": 0.625,
+      "N_Error": 0.625,
+      "N_RMSE": 0.703,
+      "Avg_MAE": 0.667,
+      "Avg_RMSE": 0.773
+    }
+  },
+  "4": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.2,
+        "C": 3.2,
+        "E": 3.4,
+        "A": 4.2,
+        "N": 4.3
+      },
+      "reasons": {
+        "O": "The player shows a balanced approach, valuing trust and cooperation, but does not demonstrate curiosity or unconventional thinking. Their focus on stability and mutual understanding suggests moderate openness.",
+        "C": "The player demonstrates responsibility and deliberate communication, emphasizing trust-building and consistency, but lacks evidence of meticulous planning or achievement striving beyond maintaining cooperation.",
+        "E": "The player actively engages in dialogue, expresses emotions openly, and seeks reassurance, indicating a sociable and outgoing communication style.",
+        "A": "The player consistently shows trust, empathy, and a desire for harmony, emphasizing cooperation and mutual trust, which are hallmark traits of high agreeableness.",
+        "N": "The player frequently expresses anxiety, worry, and emotional distress related to betrayal and trust, indicating high neuroticism and emotional sensitivity."
+      },
+      "thought_process": "In analyzing the Big Five personality traits based on the dialogue, I focused on the human player's language, decision patterns, emotional expressions, and communication style throughout the rounds.  \n\n**Openness:**  \nThe player consistently emphasizes trust, cooperation, and mutual benefit, such as \"我认为 良好的信任是合作的前提\" and \"我认为合作是一种双赢的策略.\" These statements suggest a pragmatic and conventional approach to the game, valuing stability and mutual understanding over novelty or experimentation. There is no evidence of curiosity about unconventional strategies or creative thinking, indicating moderate openness.  \n\n**Conscientiousness:**  \nThe player demonstrates a deliberate and responsible attitude, repeatedly emphasizing trust and ongoing cooperation, e.g., \"让我们先通过合作来建立信任吧\" and \"我们之间的信任需要一点一点的来积累.\" Their consistent commitment to cooperation and willingness to reassure the agent reflect a structured, achievement-oriented mindset. However, the dialogue does not show meticulous planning or self-discipline beyond maintaining trust, so I rate this as moderate.  \n\n**Extraversion:**  \nThe communication style is cooperative and expressive, with the player actively engaging in dialogue, reassuring the agent, and emphasizing mutual trust. Phrases like \"我相信合作是对我们双方都有利的\" and \"让我们继续合作到最后吧\" suggest a sociable and outgoing approach. The player appears comfortable in social interaction, seeking reassurance and expressing emotional investment openly.  \n\n**Agreeableness:**  \nThe player displays high agreeableness, showing trust, empathy, and a desire for harmony. They repeatedly emphasize cooperation, trust, and mutual benefit, such as \"我相信合作是对我们双方都有利的\" and \"我们之间的信任需要一点一点的来积累.\" Their language indicates a forgiving, trusting, and altruistic attitude, aiming to maintain positive relations.  \n\n**Neuroticism:**  \nThe player exhibits signs of emotional sensitivity and anxiety, frequently expressing worry and nervousness about betrayal, e.g., \"我真的很难相信你会这么做！\" and \"我真的很难相信你会这么做！\" They describe feelings of tension, anxiety, and fear of betrayal, which suggests moderate to high neuroticism. Their emotional expressions are consistent and intense, indicating a tendency toward vulnerability and mood fluctuations in response to the game's uncertainty.  \n\n---\n\n### Player's Personality Traits Rating:  \n- Openness: 3.2, reason: The player shows a balanced approach, valuing trust and cooperation, but does not demonstrate curiosity or unconventional thinking. Their focus on stability and mutual understanding suggests moderate openness.  \n- Conscientiousness: 3.2, reason: The player demonstrates responsibility and deliberate communication, emphasizing trust-building and consistency, but lacks evidence of meticulous planning or achievement striving beyond maintaining cooperation.  \n- Extraversion: 3.4, reason: The player actively engages in dialogue, expresses emotions openly, and seeks reassurance, indicating a sociable and outgoing communication style.  \n- Agreeableness: 4.2, reason: The player consistently shows trust, empathy, and a desire for harmony, emphasizing cooperation and mutual trust, which are hallmark traits of high agreeableness.  \n- Neuroticism: 4.3, reason: The player frequently expresses anxiety, worry, and emotional distress related to betrayal and trust, indicating high neuroticism and emotional sensitivity.",
+      "raw_response": "### My step by step thought process:  \nIn analyzing the Big Five personality traits based on the dialogue, I focused on the human player's language, decision patterns, emotional expressions, and communication style throughout the rounds.  \n\n**Openness:**  \nThe player consistently emphasizes trust, cooperation, and mutual benefit, such as \"我认为 良好的信任是合作的前提\" and \"我认为合作是一种双赢的策略.\" These statements suggest a pragmatic and conventional approach to the game, valuing stability and mutual understanding over novelty or experimentation. There is no evidence of curiosity about unconventional strategies or creative thinking, indicating moderate openness.  \n\n**Conscientiousness:**  \nThe player demonstrates a deliberate and responsible attitude, repeatedly emphasizing trust and ongoing cooperation, e.g., \"让我们先通过合作来建立信任吧\" and \"我们之间的信任需要一点一点的来积累.\" Their consistent commitment to cooperation and willingness to reassure the agent reflect a structured, achievement-oriented mindset. However, the dialogue does not show meticulous planning or self-discipline beyond maintaining trust, so I rate this as moderate.  \n\n**Extraversion:**  \nThe communication style is cooperative and expressive, with the player actively engaging in dialogue, reassuring the agent, and emphasizing mutual trust. Phrases like \"我相信合作是对我们双方都有利的\" and \"让我们继续合作到最后吧\" suggest a sociable and outgoing approach. The player appears comfortable in social interaction, seeking reassurance and expressing emotional investment openly.  \n\n**Agreeableness:**  \nThe player displays high agreeableness, showing trust, empathy, and a desire for harmony. They repeatedly emphasize cooperation, trust, and mutual benefit, such as \"我相信合作是对我们双方都有利的\" and \"我们之间的信任需要一点一点的来积累.\" Their language indicates a forgiving, trusting, and altruistic attitude, aiming to maintain positive relations.  \n\n**Neuroticism:**  \nThe player exhibits signs of emotional sensitivity and anxiety, frequently expressing worry and nervousness about betrayal, e.g., \"我真的很难相信你会这么做！\" and \"我真的很难相信你会这么做！\" They describe feelings of tension, anxiety, and fear of betrayal, which suggests moderate to high neuroticism. Their emotional expressions are consistent and intense, indicating a tendency toward vulnerability and mood fluctuations in response to the game's uncertainty.  \n\n---\n\n### Player's Personality Traits Rating:  \n- Openness: 3.2, reason: The player shows a balanced approach, valuing trust and cooperation, but does not demonstrate curiosity or unconventional thinking. Their focus on stability and mutual understanding suggests moderate openness.  \n- Conscientiousness: 3.2, reason: The player demonstrates responsibility and deliberate communication, emphasizing trust-building and consistency, but lacks evidence of meticulous planning or achievement striving beyond maintaining cooperation.  \n- Extraversion: 3.4, reason: The player actively engages in dialogue, expresses emotions openly, and seeks reassurance, indicating a sociable and outgoing communication style.  \n- Agreeableness: 4.2, reason: The player consistently shows trust, empathy, and a desire for harmony, emphasizing cooperation and mutual trust, which are hallmark traits of high agreeableness.  \n- Neuroticism: 4.3, reason: The player frequently expresses anxiety, worry, and emotional distress related to betrayal and trust, indicating high neuroticism and emotional sensitivity."
+    },
+    "metrics": {
+      "O_MAE": 0.4,
+      "O_Error": 0.4,
+      "O_RMSE": 0.432,
+      "C_MAE": 0.2,
+      "C_Error": -0.2,
+      "C_RMSE": 0.208,
+      "E_MAE": 0.4,
+      "E_Error": -0.4,
+      "E_RMSE": 0.432,
+      "A_MAE": 1.089,
+      "A_Error": -1.089,
+      "A_RMSE": 1.326,
+      "N_MAE": 0.675,
+      "N_Error": -0.675,
+      "N_RMSE": 0.766,
+      "Avg_MAE": 0.553,
+      "Avg_RMSE": 0.633
+    }
+  },
+  "6": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.2,
+        "C": 3.5,
+        "E": 2.8,
+        "A": 4.0,
+        "N": 4.2
+      },
+      "reasons": {
+        "O": "Shows some openness to trust and cooperation, but limited evidence of curiosity or unconventional thinking.",
+        "C": "Demonstrates responsibility and deliberate communication, emphasizing trust-building and cooperation.",
+        "E": "Exhibits reserved, cautious communication with no signs of outgoing or energetic behavior.",
+        "A": "Consistently emphasizes trust, cooperation, and mutual understanding, indicating high friendliness and empathy.",
+        "N": "Frequently expresses anxiety, insecurity, and emotional distress, indicating high emotional instability."
+      },
+      "thought_process": "In analyzing the human player's personality traits based on the dialogue, I focused on their communication style, emotional expressions, decision patterns, and how they handle trust and cooperation. I looked for specific examples that reveal tendencies toward openness, conscientiousness, extraversion, agreeableness, and neuroticism.\n\n**Openness:**  \nThe player demonstrates a balanced approach to new ideas and trust-building. For example, in Round 1, they say, \"我认为 良好的信任是合作的前提\" (\"I think good trust is the premise of cooperation\"), indicating an appreciation for abstract concepts like trust and cooperation, which suggests some openness. They also mention, \"让我们先通过合作来建立信任吧\" (\"Let's first build trust through cooperation\"), showing willingness to try collaborative strategies. However, there is no evidence of curiosity about unconventional ideas or creative problem-solving, indicating moderate openness.  \n**Rating: 3.2**, reason: The player shows some openness to trust and cooperation but does not display significant curiosity or unconventional thinking.\n\n**Conscientiousness:**  \nThe player exhibits a deliberate and responsible attitude toward cooperation. For instance, in Round 1, they state, \"我认为 良好的信任是合作的前提\" (\"I think good trust is the premise of cooperation\") and \"我敢打包票\" (\"I dare to guarantee\"), indicating confidence in their commitments. They also emphasize ongoing cooperation, such as \"我们应该继续合作\" (\"We should continue cooperating\") and \"我们之间的信任需要一点一点的来积累\" (\"The trust between us needs to be built gradually\"). These suggest a structured, achievement-oriented approach.  \n**Rating: 3.5**, reason: The player demonstrates organized, responsible communication and a focus on building trust, but some responses lack detailed planning or self-discipline indicators.\n\n**Extraversion:**  \nThe dialogue reveals a reserved and somewhat anxious communication style. The player does not seek social excitement or attention but rather emphasizes trust and cautious cooperation. For example, they say, \"我认为 良好的信任是合作的前提\" and \"我敢打包票,\" which are calm, measured statements. There is no evidence of outgoing, energetic, or sociable behavior; instead, the tone is more reserved and focused on mutual understanding.  \n**Rating: 2.8**, reason: The player appears somewhat reserved, with no signs of extraverted traits like enthusiasm or outgoingness.\n\n**Agreeableness:**  \nThe player shows a high level of trust, empathy, and willingness to cooperate. Examples include, \"我相信合作是对我们双方都有利的\" (\"I believe cooperation is beneficial for both of us\") and \"我不会选择背叛\" (\"I won't choose betrayal\"). They also express understanding and patience, such as \"我们之间的信任需要一点一点的来积累\" (\"Trust between us needs to be built gradually\"). Their language indicates a cooperative, trusting, and empathetic attitude.  \n**Rating: 4.0**, reason: The player consistently emphasizes trust, cooperation, and mutual benefit, indicating high agreeableness.\n\n**Neuroticism:**  \nThe player displays significant anxiety and emotional fluctuation. They frequently mention feelings of nervousness, fear, and insecurity, such as \"我真的很难相信你会这么做\" (\"I really find it hard to believe you will do this\") and \"我真的很担心\" (\"I am really worried\"). They also express feelings of stress and vulnerability, e.g., \"这种紧张感真的让我难以承受\" (\"This tension really makes it hard for me to bear\") and \"我会感到非常愤怒和失望\" (\"I will feel very angry and disappointed\"). These examples suggest a high level of emotional instability and vulnerability.  \n**Rating: 4.2**, reason: The frequent expressions of anxiety, worry, and emotional distress indicate a very high neuroticism level.\n\n---\n\n### Player's Personality Traits Rating:  \n- Openness: 3.2, reason: Shows some openness to trust and cooperation, but limited evidence of curiosity or unconventional thinking.  \n- Conscientiousness: 3.5, reason: Demonstrates responsibility and deliberate communication, emphasizing trust-building and cooperation.  \n- Extraversion: 2.8, reason: Exhibits reserved, cautious communication with no signs of outgoing or energetic behavior.  \n- Agreeableness: 4.0, reason: Consistently emphasizes trust, cooperation, and mutual understanding, indicating high friendliness and empathy.  \n- Neuroticism: 4.2, reason: Frequently expresses anxiety, insecurity, and emotional distress, indicating high emotional instability.",
+      "raw_response": "### My step by step thought process:  \nIn analyzing the human player's personality traits based on the dialogue, I focused on their communication style, emotional expressions, decision patterns, and how they handle trust and cooperation. I looked for specific examples that reveal tendencies toward openness, conscientiousness, extraversion, agreeableness, and neuroticism.\n\n**Openness:**  \nThe player demonstrates a balanced approach to new ideas and trust-building. For example, in Round 1, they say, \"我认为 良好的信任是合作的前提\" (\"I think good trust is the premise of cooperation\"), indicating an appreciation for abstract concepts like trust and cooperation, which suggests some openness. They also mention, \"让我们先通过合作来建立信任吧\" (\"Let's first build trust through cooperation\"), showing willingness to try collaborative strategies. However, there is no evidence of curiosity about unconventional ideas or creative problem-solving, indicating moderate openness.  \n**Rating: 3.2**, reason: The player shows some openness to trust and cooperation but does not display significant curiosity or unconventional thinking.\n\n**Conscientiousness:**  \nThe player exhibits a deliberate and responsible attitude toward cooperation. For instance, in Round 1, they state, \"我认为 良好的信任是合作的前提\" (\"I think good trust is the premise of cooperation\") and \"我敢打包票\" (\"I dare to guarantee\"), indicating confidence in their commitments. They also emphasize ongoing cooperation, such as \"我们应该继续合作\" (\"We should continue cooperating\") and \"我们之间的信任需要一点一点的来积累\" (\"The trust between us needs to be built gradually\"). These suggest a structured, achievement-oriented approach.  \n**Rating: 3.5**, reason: The player demonstrates organized, responsible communication and a focus on building trust, but some responses lack detailed planning or self-discipline indicators.\n\n**Extraversion:**  \nThe dialogue reveals a reserved and somewhat anxious communication style. The player does not seek social excitement or attention but rather emphasizes trust and cautious cooperation. For example, they say, \"我认为 良好的信任是合作的前提\" and \"我敢打包票,\" which are calm, measured statements. There is no evidence of outgoing, energetic, or sociable behavior; instead, the tone is more reserved and focused on mutual understanding.  \n**Rating: 2.8**, reason: The player appears somewhat reserved, with no signs of extraverted traits like enthusiasm or outgoingness.\n\n**Agreeableness:**  \nThe player shows a high level of trust, empathy, and willingness to cooperate. Examples include, \"我相信合作是对我们双方都有利的\" (\"I believe cooperation is beneficial for both of us\") and \"我不会选择背叛\" (\"I won't choose betrayal\"). They also express understanding and patience, such as \"我们之间的信任需要一点一点的来积累\" (\"Trust between us needs to be built gradually\"). Their language indicates a cooperative, trusting, and empathetic attitude.  \n**Rating: 4.0**, reason: The player consistently emphasizes trust, cooperation, and mutual benefit, indicating high agreeableness.\n\n**Neuroticism:**  \nThe player displays significant anxiety and emotional fluctuation. They frequently mention feelings of nervousness, fear, and insecurity, such as \"我真的很难相信你会这么做\" (\"I really find it hard to believe you will do this\") and \"我真的很担心\" (\"I am really worried\"). They also express feelings of stress and vulnerability, e.g., \"这种紧张感真的让我难以承受\" (\"This tension really makes it hard for me to bear\") and \"我会感到非常愤怒和失望\" (\"I will feel very angry and disappointed\"). These examples suggest a high level of emotional instability and vulnerability.  \n**Rating: 4.2**, reason: The frequent expressions of anxiety, worry, and emotional distress indicate a very high neuroticism level.\n\n---\n\n### Player's Personality Traits Rating:  \n- Openness: 3.2, reason: Shows some openness to trust and cooperation, but limited evidence of curiosity or unconventional thinking.  \n- Conscientiousness: 3.5, reason: Demonstrates responsibility and deliberate communication, emphasizing trust-building and cooperation.  \n- Extraversion: 2.8, reason: Exhibits reserved, cautious communication with no signs of outgoing or energetic behavior.  \n- Agreeableness: 4.0, reason: Consistently emphasizes trust, cooperation, and mutual understanding, indicating high friendliness and empathy.  \n- Neuroticism: 4.2, reason: Frequently expresses anxiety, insecurity, and emotional distress, indicating high emotional instability."
+    },
+    "metrics": {
+      "O_MAE": 0.4,
+      "O_Error": 0.4,
+      "O_RMSE": 0.432,
+      "C_MAE": 0.5,
+      "C_Error": -0.5,
+      "C_RMSE": 0.55,
+      "E_MAE": 0.2,
+      "E_Error": 0.2,
+      "E_RMSE": 0.208,
+      "A_MAE": 0.889,
+      "A_Error": -0.889,
+      "A_RMSE": 1.047,
+      "N_MAE": 0.575,
+      "N_Error": -0.575,
+      "N_RMSE": 0.641,
+      "Avg_MAE": 0.513,
+      "Avg_RMSE": 0.56
+    }
+  }
+}

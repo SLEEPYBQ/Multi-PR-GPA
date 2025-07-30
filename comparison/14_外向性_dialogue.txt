@@ -1,0 +1,18 @@
+Round1
+User: $Choice:betrayend  
+Agent: 太棒了！让我们继续下一轮吧。我对你的决定感到非常兴奋，你觉得我们下一轮应该怎么做呢？合作还是背叛？
+User: $Choice:cooperate  
+Agent: 哇，这真是一个有趣的选择！你觉得我们下一轮应该如何进行？合作还是背叛？我很期待听到你的想法！
+User: $Choice:betray  
+Agent: 哇，你真是一个充满惊喜的对手！每一轮都充满了悬念。我们接下来要怎么做呢？继续背叛还是尝试合作？一起讨论一下吧！
+
+Round2
+
+Round3
+
+Round4
+
+Round5
+
+Round6
+

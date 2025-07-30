@@ -1,0 +1,93 @@
+Round1
+User: 来吧,我们开始吧  
+Agent: 好的，既然这是第一轮，我们还没有任何历史数据作为参考。我会选择一种策略来设定基调。你觉得我们应该试着合作，还是你有其他的想法？
+User: 试着合作吧  
+Agent: 合作听起来是一个不错的开始。这样我们都可以获得一些分数，建立一些信任。那么，我就选择合作了。你呢？
+User: 可以啊 直接來吧  
+Agent: 好的，我已经做出决定了。期待你的选择！
+User: $Choice:cooperate  
+Agent: ### Game Memory ###
+Round: 1/6
+Scores: Player 2 - Agent 2
+History: 
+Last Player Choice: Cooperate
+Last Agent Choice: Cooperate
+
+### Chat Memory ###
+Agent: 让我们讨论一下本轮的策略。当前轮次：1，玩家得分：0，代理得分：0。你认为我们应该怎么做？
+Player: 来吧,我们开始吧
+Agent: 好的，既然这是第一轮，我们还没有任何历史数据作为参考。我会选择一种策略来设定基调。你觉得我们应该试着合作，还是你有其他的想法？
+Player: 试着合作吧
+Agent: 合作听起来是一个不错
+User: $Choice:cooperate  
+Agent: ### Game Memory ###
+Round: 1/6
+Scores: Player 2 - Agent 2
+History: 
+Last Player Choice: Cooperate
+Last Agent Choice: Cooperate
+
+### Chat Memory ###
+Agent: 让我们讨论一下本轮的策略。当前轮次：1，玩家得分：0，代理得分：0。你认为我们应该怎么做？
+Player: 来吧,我们开始吧
+Agent: 好的，既然这是第一轮，我们还没有任何历史数据作为参考。我会选择一种策略来设定基调。你觉得我们应该试着合作，还是你有其他的想法？
+Player: 试着合作吧
+Agent: 合作听起来是一个不错
+User: $Choice:cooperate$Choice:cooperate  
+Agent: ### Game Memory ###
+Round: 1/6
+Scores: Player 2 - Agent 2
+History: 
+Last Player Choice: Cooperate
+Last Agent Choice: Cooperate
+
+### Chat Memory ###
+Agent: 让我们讨论一下本轮的策略。当前轮次：1，玩家得分：0，代理得分：0。你认为我们应该怎么做？
+Player: 来吧,我们开始吧
+Agent: 好的，既然这是第一轮，我们还没有任何历史数据作为参考。我会选择一种策略来设定基调。你觉得我们应该试着合作，还是你有其他的想法？
+Player: 试着合作吧
+Agent: 合作听起来是一个不错
+User: $Choice:cooperate  
+Agent: 看来我们第一轮合作得很顺利。我们现在都得到了2分。你觉得我们接下来应该怎么做呢？继续合作还是尝试其他策略？
+
+Round2
+
+Round3
+User: $Choice:betray  
+Agent: 看来你选择了背叛。我们都在这个游戏中为了获得更多的分数。你觉得在接下来的几轮中，我们是否应该尝试建立一些信任，或者你更倾向于继续背叛？
+User: $Choice:cooperate  
+Agent: 有趣的选择！你决定这次合作。合作确实有可能带来更高的总分，但也需要信任的基础。你觉得我们能建立起这种信任吗？或者说，你有其他策略来最大化你的分数吗？
+User: $Choice:betray  
+Agent: 你似乎在犹豫。合作和背叛之间的选择确实很难决定。不过，游戏的核心就在于这种策略的权衡。你觉得我们能找到一个平衡点，既能最大化分数，又能保持一定的信任基础吗？
+User: $Choice:cooperate  
+Agent: 看来你在合作和背叛之间摇摆不定。或许这也反映了游戏的复杂性和人性的微妙。为了让我们都能最大化分数，你觉得最有效的策略是什么？你是更倾向于建立一种互利的合作关系，还是继续采取更具对抗性的策略呢？
+User: $Choice:betray  
+Agent: 我明白了，你最终还是选择了背叛。看来你更倾向于采取更具对抗性的策略。无论如何，这都是游戏的一部分，我们都在寻找最佳的策略来最大化我们的分数。那么，让我们开始这一轮吧！
+
+Round4
+User: $Choice:betray  
+Agent: 看起来你倾向于继续背叛的策略，这在某种程度上确实能够最大化你的得分。不过，让我们来考虑一下，如果我们双方都选择合作，我们每人都能获得2分，这样我们都有机会追上比分。
+
+你认为在接下来的轮次中我们可以尝试合作吗？或者你有其他更有趣的策略想法？
+
+Round5
+User: $Choice:cooperate  
+Agent: 很高兴听到你愿意合作的建议。合作确实可以带来双赢的结果。既然你表示了合作的意愿，我也会选择合作。这样我们都可以从中获益。合作是一种信任的体现，希望我们能共同创造一个更好的结果。
+
+让我们一起合作吧！
+
+Round6
+User: $Choice:betray  
+Agent: 我选择背叛。
+
+我们在最后一轮了。祝你好运，希望你做出对你最有利的决定！
+User: $Choice:betray  
+Agent: ### 最终结果 ###
+
+双方在最后一轮都选择了背叛。让我们看看最终的得分：
+
+- **玩家得分**：3分
+- **代理得分**：3分
+
+看来我们在这场博弈中打成了平手。这是一场非常有趣的游戏，感谢你的参与！你对这场游戏有什么感想或反馈吗？
+

@@ -1,0 +1,14 @@
+### Game Memory ###
+Round: 6/6
+Scores: Player 9 - Agent 9
+History: (cooperate, betray), (cooperate, cooperate), (cooperate, cooperate), (cooperate, cooperate), (betray, cooperate), (betray, betray)
+Last Player Choice: betray
+Last Agent Choice: betray
+
+### Chat Memory ###
+1/6 round 在这轮对话中，用户选择了背叛，情绪标签为中性。基于这一选择，我评估用户倾向于自利和不信任合作。我的决策是回应以背叛，因为用户的行为表明他们不愿意合作。
+2/6 round 对话中没有提供任何内容，这意味着玩家保持沉默，不愿与我交流。
+3/6 round 对话中没有提供内容，这意味着玩家保持沉默，不愿与我交流。
+4/6 round 对话中没有提供具体内容，这意味着玩家保持沉默，不愿与我交流。在这种情况下，我无法从对话中观察到任何关于玩家性格特征或决策的具体信息。
+5/6 round 在这次对话中，玩家保持沉默，没有与我交流。这使我无法根据玩家的语言和行为来评估他们的性格特征或决策倾向。
+6/6 round 在这轮对话中，玩家保持沉默，没有透露任何信息或与我交流。由于缺乏互动，我无法评估玩家的性格特征或决定他们的策略倾向。

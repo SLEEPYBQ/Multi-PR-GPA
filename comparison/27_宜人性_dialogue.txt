@@ -1,0 +1,37 @@
+Round1
+User: end$Choice:betrayend  
+Agent: 我已经做出了决定。请做出你的选择。
+User: 你好  
+Agent: 你好！你觉得我们这轮应该怎么做？我们可以讨论一下策略。我倾向于合作，这样我们都能获得分数。你怎么看？
+User: 我觉得你的想法是正确的,让我们开始吧  
+Agent: 太好了！我已经做出了决定。请你也做出你的选择吧。希望我们都能合作，共同获益。
+User: $Choice:cooperate  
+Agent: ### Game Memory ###
+Round: 1/6
+Scores: Player 2 - Agent 0
+History: 
+Last Player Choice: cooperate
+Last Agent Choice: betray
+
+### Chat Memory ###
+Agent: 让我们讨论一下本轮的策略。当前轮次：1，玩家得分：0，代理得分：0。你认为我们应该怎么做？
+Player: end$Choice:betrayend
+Agent: 我已经做出了决定。请做出你的选择。
+Player: 你好
+Agent: 你好！你觉得我们这轮应该怎么做？我们可以讨论一下策略。我倾向于合作，这样我们都能获得分数。你怎么看？
+Player: 我觉得你的想法是
+
+Round2
+User: 让我们继续合作下去吧  
+Agent: 好的，我同意继续合作。这样我们都可以获得更多的分数。合作才能共赢，期待你的回应！
+
+Round3
+
+Round4
+User: 非常感谢您!  
+Agent: 不客气！我觉得我们一直以来的合作都非常成功，我们应该继续保持合作，这样我们都能获得更多的分数。你觉得呢？
+
+Round5
+
+Round6
+

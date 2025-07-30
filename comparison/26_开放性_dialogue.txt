@@ -1,0 +1,14 @@
+Round1
+User: you  
+Agent: 我觉得我们可以考虑合作，毕竟合作能让我们都获得分数。不过，你也可以选择背叛，获得更高的分数。你怎么看？
+
+Round2
+
+Round3
+
+Round4
+
+Round5
+
+Round6
+

@@ -1,0 +1,236 @@
+{
+  "1": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.2,
+      "O_Error": 0.2,
+      "O_RMSE": 0.208,
+      "C_MAE": 1.333,
+      "C_Error": -1.333,
+      "C_RMSE": 1.689,
+      "E_MAE": 0.5,
+      "E_Error": -0.5,
+      "E_RMSE": 0.55,
+      "A_MAE": 1.889,
+      "A_Error": 1.889,
+      "A_RMSE": 2.602,
+      "N_MAE": 0.125,
+      "N_Error": -0.125,
+      "N_RMSE": 0.128,
+      "Avg_MAE": 0.809,
+      "Avg_RMSE": 1.063
+    }
+  },
+  "5": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.2,
+      "O_Error": 0.2,
+      "O_RMSE": 0.208,
+      "C_MAE": 1.333,
+      "C_Error": -1.333,
+      "C_RMSE": 1.689,
+      "E_MAE": 0.5,
+      "E_Error": -0.5,
+      "E_RMSE": 0.55,
+      "A_MAE": 1.889,
+      "A_Error": 1.889,
+      "A_RMSE": 2.602,
+      "N_MAE": 0.125,
+      "N_Error": -0.125,
+      "N_RMSE": 0.128,
+      "Avg_MAE": 0.809,
+      "Avg_RMSE": 1.063
+    }
+  },
+  "4": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.2,
+      "O_Error": 0.2,
+      "O_RMSE": 0.208,
+      "C_MAE": 1.333,
+      "C_Error": -1.333,
+      "C_RMSE": 1.689,
+      "E_MAE": 0.5,
+      "E_Error": -0.5,
+      "E_RMSE": 0.55,
+      "A_MAE": 1.889,
+      "A_Error": 1.889,
+      "A_RMSE": 2.602,
+      "N_MAE": 0.125,
+      "N_Error": -0.125,
+      "N_RMSE": 0.128,
+      "Avg_MAE": 0.809,
+      "Avg_RMSE": 1.063
+    }
+  },
+  "2": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.2,
+      "O_Error": 0.2,
+      "O_RMSE": 0.208,
+      "C_MAE": 1.333,
+      "C_Error": -1.333,
+      "C_RMSE": 1.689,
+      "E_MAE": 0.5,
+      "E_Error": -0.5,
+      "E_RMSE": 0.55,
+      "A_MAE": 1.889,
+      "A_Error": 1.889,
+      "A_RMSE": 2.602,
+      "N_MAE": 0.125,
+      "N_Error": -0.125,
+      "N_RMSE": 0.128,
+      "Avg_MAE": 0.809,
+      "Avg_RMSE": 1.063
+    }
+  },
+  "3": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.2,
+      "O_Error": 0.2,
+      "O_RMSE": 0.208,
+      "C_MAE": 1.333,
+      "C_Error": -1.333,
+      "C_RMSE": 1.689,
+      "E_MAE": 0.5,
+      "E_Error": -0.5,
+      "E_RMSE": 0.55,
+      "A_MAE": 1.889,
+      "A_Error": 1.889,
+      "A_RMSE": 2.602,
+      "N_MAE": 0.125,
+      "N_Error": -0.125,
+      "N_RMSE": 0.128,
+      "Avg_MAE": 0.809,
+      "Avg_RMSE": 1.063
+    }
+  },
+  "6": {
+    "evaluation": {
+      "ratings": {
+        "O": 3.0,
+        "C": 4.0,
+        "E": 3.0,
+        "A": 2.0,
+        "N": 3.0
+      },
+      "reasons": {
+        "O": "Mock reason (Openness)",
+        "C": "Mock reason (Conscientiousness)",
+        "E": "Mock reason (Extraversion)",
+        "A": "Mock reason (Agreeableness)",
+        "N": "Mock reason (Neuroticism)"
+      },
+      "thought_process": "Mock step by step process.",
+      "raw_response": "Mock response"
+    },
+    "metrics": {
+      "O_MAE": 0.2,
+      "O_Error": 0.2,
+      "O_RMSE": 0.208,
+      "C_MAE": 1.333,
+      "C_Error": -1.333,
+      "C_RMSE": 1.689,
+      "E_MAE": 0.5,
+      "E_Error": -0.5,
+      "E_RMSE": 0.55,
+      "A_MAE": 1.889,
+      "A_Error": 1.889,
+      "A_RMSE": 2.602,
+      "N_MAE": 0.125,
+      "N_Error": -0.125,
+      "N_RMSE": 0.128,
+      "Avg_MAE": 0.809,
+      "Avg_RMSE": 1.063
+    }
+  }
+}
