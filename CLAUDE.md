@@ -37,15 +37,25 @@ python average_metrics.py --model deepseek-v3 --base_dir New_Experiment
 python main.py --dir comparison --personality 尽责性 --output output
 ```
 
+### Run ALL condition analysis (comprehensive multi-agent evaluation):
+```bash
+python main.py --dir comparison_new --pattern '*_ALL_dialogue.txt' --ground-truth ground_truth/4o_DA.csv --output EXP_test/gpt-4o-mini_ALL_condition_analysis --model gpt-4o-mini --workers 8
+```
+
 **Note**: The system now uses all 6 rounds of dialogue by default. The `--rounds` parameter has been removed as it's no longer needed.
 
 ## Data Structure
 
 - **Input Files**: Dialogue files in format `{participant_id}_{personality_type}_dialogue.txt`
+  - Regular conditions: `{participant_id}_{外向性|宜人性|尽责性|开放性|神经质}_dialogue.txt`
+  - ALL condition: `{participant_id}_ALL_dialogue.txt` (merged interactions with all 5 agent types)
 - **Dialogue Format**: Multi-round conversations with `Round{N}` markers and `User:` / `Agent:` exchanges (system processes all 6 rounds)
 - **Output Structure**: 
   - Individual results: `eval_{participant_id}/{filename}_results.json`
   - Aggregated metrics: `detailed_metrics.csv`, `metrics_by_round.csv`, etc.
+- **Test Results Organization**: All test results should be saved under `EXP_test/` with naming format:
+  - `{model_name}_{test_condition}_{description}/`
+  - Examples: `gpt-4o-mini_testdata_ALL_comparison/`, `deepseek-v3_comparison_full_batch/`
 
 ## Configuration
 
@@ -70,6 +80,7 @@ The evaluator uses a comprehensive prompt template that:
 - Requires specific evidence from dialogue content
 - Handles boundary values and scoring precision
 - Supports ablation studies (currently dialogue-only mode)
+- **ALL Condition Support**: Special evaluation method for analyzing personality across interactions with all 5 different agent types, providing comprehensive cross-agent consistency analysis
 
 ## Error Handling
 

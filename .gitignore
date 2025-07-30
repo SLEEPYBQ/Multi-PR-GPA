@@ -1,0 +1,36 @@
+# Experiment results and output files
+EXP/
+New_Experiment/
+*_results.json
+*.csv
+ablation_dialogue/
+eval_*/
+
+# System files
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
