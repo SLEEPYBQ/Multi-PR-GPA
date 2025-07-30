@@ -15,7 +15,7 @@ def main():
     parser.add_argument('--output', type=str, default='output', help='Output directory')
     parser.add_argument('--verbose', action='store_true', help='Verbose logging')
     parser.add_argument('--encoding', type=str, default='utf-8', help='File encoding')
-    parser.add_argument('--api-key', type=str, default='sk-zI6Q67cPAsBZUdDX6tCl4ZCuJ7x5A34lc2UruLVaepWhIrtl', help='LLM API key')
+    parser.add_argument('--api-key', type=str, default='', help='LLM API key')
     parser.add_argument('--api-base', type=str, default='https://api.openai-proxy.org/v1', help='LLM API base')
     parser.add_argument('--model', type=str, default='gpt-4.1-nano', help='LLM model')
     parser.add_argument('--workers', type=int, default=16, help='Parallel workers')
