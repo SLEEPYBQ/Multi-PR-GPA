@@ -257,13 +257,35 @@ class ExperimentRunner:
             
             gt_scores = ground_truth_data.get(participant_id, {})
             
+            # 读取对应的memory文件
+            memory_content = ""
+            try:
+                # 构建memory文件路径
+                dialogue_dir = os.path.dirname(file_path)
+                if agent_type == "ALL":
+                    memory_file = os.path.join(dialogue_dir, f"{participant_id}_ALL_memory.txt")
+                else:
+                    memory_file = os.path.join(dialogue_dir, f"{participant_id}_{agent_type}_memory.txt")
+                
+                if os.path.exists(memory_file):
+                    with open(memory_file, 'r', encoding=self.parser.encoding) as f:
+                        memory_content = f.read()
+                    if verbose:
+                        logger.info(f"  Loaded memory file: {memory_file}")
+                else:
+                    if verbose:
+                        logger.warning(f"  Memory file not found: {memory_file}")
+            except Exception as e:
+                logger.warning(f"Error reading memory file: {e}")
+                memory_content = ""
+            
             # 使用全部6轮数据进行评估
             subset = self.parser.extract_rounds_subset(structured_dialogue, 6)
             formatted_dialogue = self.parser.format_dialogue_for_llm(subset)
             
-            # 直接评估
+            # 直接评估（包含memory内容）
             try:
-                evaluation = self.evaluator.evaluate_personality(formatted_dialogue, ablation_choice)
+                evaluation = self.evaluator.evaluate_personality(formatted_dialogue, ablation_choice, memory_content)
             except Exception as e:
                 logger.error(f"Error evaluating: {e}")
                 evaluation = self.evaluator._get_mock_evaluation()

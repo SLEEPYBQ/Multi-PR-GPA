@@ -27,13 +27,13 @@ class PersonalityEvaluator:
         
         # 移除profile相关内容
         self.prompt_template = PromptTemplate(
-            input_variables=["dialogue"],
+            input_variables=["dialogue", "memory"],
             template="""
 ### Background:  
 You are a professional personality psychologist specializing in the Big Five personality traits model. You've been invited to analyze the personality traits of a human player in a "Prisoner's Dilemma" game. In this game, the human player competes against an AI agent, with each round consisting of two phases: dialogue and decision-making, where players can choose to "cooperate" or "betray."
 
 ### Task:
-1. You are to analyze the human player's personality traits based on Game Dialogue Record. You will provide a detailed analysis of each of the Big Five personality traits, including specific examples from the dialogue to support your ratings.
+1. You are to analyze the human player's personality traits based on Game Dialogue Record and Memory Record. You will provide a detailed analysis of each of the Big Five personality traits, including specific examples from both the dialogue and memory to support your ratings.
 2. Your response should strictly follow the Response Template.
 
 ### Big Five Personality Traits Reference Standards: 
@@ -85,13 +85,14 @@ You are a professional personality psychologist specializing in the Big Five per
 
 
 ### Analysis Requirements: 
-1. Carefully read the entire dialogue record, paying special attention to the human player's decision patterns, communication style, and emotional expression.
+1. Carefully read the entire dialogue record and memory record, paying special attention to the human player's decision patterns, communication style, emotional expression, and strategic thinking.
 2. Rate the human player on each dimension of the Big Five personality traits on a scale of 1-5.
-3. Base your ratings on specific evidence from the dialogue, avoiding subjective assumptions.
-4. Quote original text from the dialogue as supporting evidence in your analysis.
-5. Provide at least 2-3 specific examples as the basis for each dimension's rating.
+3. Base your ratings on specific evidence from both the dialogue and memory records, avoiding subjective assumptions.
+4. Quote original text from both the dialogue and memory as supporting evidence in your analysis.
+5. Provide at least 2-3 specific examples as the basis for each dimension's rating, drawing from both dialogue and memory when available.
 6. Think step by step, finding evidence before drawing conclusions.
 7. Ensure balanced analysis by considering both positive and negative expressions of the same trait.
+8. Use memory records to understand the player's internal thought processes and strategic considerations that may not be evident in dialogue alone.
 
 ### Important Format Instructions
 1) For each trait, you must start a new line in the format:
@@ -115,6 +116,9 @@ Where `X` is a single integer or a float from 1-5 (e.g. 4.0, 3.7, 2.3), and then
 
 ### Game Dialogue Record: 
 {dialogue}
+
+### Memory Record: 
+{memory}
 """
         )
         
@@ -125,7 +129,8 @@ Where `X` is a single integer or a float from 1-5 (e.g. 4.0, 3.7, 2.3), and then
             futures = []
             for task in tasks:
                 dialogue_text = task['dialogue']
-                future = executor.submit(self.evaluate_personality, dialogue_text, ablation_choice)
+                memory_text = task.get('memory', '')
+                future = executor.submit(self.evaluate_personality, dialogue_text, ablation_choice, memory_text)
                 futures.append((future, task))
             
             for future, task in futures:
@@ -137,8 +142,8 @@ Where `X` is a single integer or a float from 1-5 (e.g. 4.0, 3.7, 2.3), and then
                     results.append((task, self._get_mock_evaluation()))
         return results
     
-    def evaluate_personality(self, dialogue_text, ablation_choice='dialogue'):
-        """对对话进行评估，若LLM未配置，则返回Mock。
+    def evaluate_personality(self, dialogue_text, ablation_choice='dialogue', memory_text=''):
+        """对对话和memory进行评估，若LLM未配置，则返回Mock。
         
         ablation_choice参数仅保留'dialogue'参数以兼容旧接口
         """
@@ -148,7 +153,7 @@ Where `X` is a single integer or a float from 1-5 (e.g. 4.0, 3.7, 2.3), and then
             
         try:
             chain = LLMChain(prompt=self.prompt_template, llm=self.chat_model)
-            response = chain.invoke({"dialogue": dialogue_text})
+            response = chain.invoke({"dialogue": dialogue_text, "memory": memory_text})
             
             if isinstance(response, dict) and "text" in response:
                 response_text = response["text"]
